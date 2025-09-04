@@ -1,0 +1,19 @@
+{
+  "$schema": "https://example.com/form.schema.json",
+  "formId": "bank_application_v1",
+  "title": "Bank Account Application",
+  "fields": [
+    { "id": "full_name", "label": "Full Name", "type": "text", "required": true, "synonyms": ["name", "applicant name", "my name is"] },
+    { "id": "dob", "label": "Date of Birth", "type": "date", "required": true, "synonyms": ["birth date", "date of birth"] },
+    { "id": "email", "label": "Email", "type": "email", "required": true, "synonyms": ["mail", "email address"] },
+    { "id": "phone", "label": "Phone Number", "type": "phone", "required": true, "synonyms": ["mobile", "contact number", "cell phone"] },
+    { "id": "address", "label": "Residential Address", "type": "textarea", "required": true, "synonyms": ["address", "home address", "location"] },
+    { "id": "pan_number", "label": "PAN Number", "type": "text", "required": true, "synonyms": ["pan", "pan card number"] },
+    { "id": "aadhar_number", "label": "Aadhar Number", "type": "text", "required": true, "synonyms": ["aadhar", "aadhaar number", "uid"] },
+    { "id": "account_type", "label": "Account Type", "type": "text", "required": true, "synonyms": ["savings account", "current account", "type of account"] },
+    { "id": "occupation", "label": "Occupation", "type": "text", "required": false, "synonyms": ["job", "profession", "work"] },
+    { "id": "income", "label": "Annual Income", "type": "number", "required": false, "synonyms": ["salary", "yearly income", "income per year"] },
+    { "id": "nominee_name", "label": "Nominee Name", "type": "text", "required": false, "synonyms": ["nominee", "beneficiary name"] },
+    { "id": "nominee_relation", "label": "Nominee Relation", "type": "text", "required": false, "synonyms": ["relation with nominee", "beneficiary relation"] }
+  ]
+}
